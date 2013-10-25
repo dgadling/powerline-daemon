@@ -3,6 +3,10 @@
 from __future__ import (unicode_literals, division, absolute_import,
 						print_function)
 
+import sys
+import os.path
+sys.path.append(os.path.expanduser('~/dotfiles/powerline'))
+
 __copyright__ = '2013, Kovid Goyal <kovid at kovidgoyal.net>'
 __docformat__ = 'restructuredtext en'
 
